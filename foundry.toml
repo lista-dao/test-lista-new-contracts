@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+[rpc_endpoints]
+bsc-test = "https://bsc-testnet.nodereal.io/v1/62d7dcb12a864ea194fe2170efa5cba8"
+bsc-main = "https://bsc-mainnet.nodereal.io/v1/2b818ceae5d94698af92f40401a3351a"
+sepolia = "https://eth-sepolia.nodereal.io/v1/17327530d7f04b1f857b01b59652dd13"
